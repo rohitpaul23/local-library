@@ -1,0 +1,91 @@
+body{
+  background-color: lavender;
+  height: 100vh;
+}
+
+.container-fluid{
+  height: 100%;
+}
+
+.row{
+  height: 100%;
+}
+
+.col-sm-2{
+  padding: 0;
+}
+
+.sidebar-nav {
+  font-size: 1.4em;
+  height: 100%;
+  padding: 40px 15px;
+  list-style: none;
+  background-color: dimgray;
+}
+
+.sidebar-nav a{
+  color: white;
+}
+
+.sidebar-nav li:hover{
+  background-color: white;
+  padding: 0 5px;
+}
+
+.sidebar-nav a:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+.col-sm-10{
+  font-size: 1.2em;
+}
+
+.col-sm-10 h1{
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 15px;
+  color: #383838;
+}
+
+.col-sm-10 p{
+  font-size: 1.3em;
+}
+
+.col-sm-10 li{
+  font-size: 1.5rem;
+}
+
+.col-sm-10 a{
+  color: #696969;
+  font-weight: 600;
+}
+
+/* Clickable*/
+
+.clickable{
+  display: flex;
+  gap: 25px;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.delete,.update{
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+.delete{
+  background-color: red;
+}
+
+.update{
+  background-color: blue;
+}
+
+.delete:hover, .update:hover{
+  background-color: white;
+  color: #000;
+  text-decoration: none;
+}
